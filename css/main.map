@@ -1,0 +1,34 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_mixins.scss",
+		"../scss/_reset.scss",
+		"../scss/_variables.scss",
+		"../scss/_grid.scss",
+		"../scss/_animate.scss",
+		"../scss/_titles.scss",
+		"../scss/_components.scss",
+		"../scss/_buttons.scss",
+		"../scss/_header.scss",
+		"../scss/_footer.scss",
+		"../scss/_home.scss"
+	],
+	"sourcesContent": [
+		"@import 'mixins';\n@import 'reset';\n@import 'variables';\n@import 'grid';\n@import 'animate';\n@import 'titles';\n@import 'components';\n@import 'buttons';\n@import 'header';\n@import 'footer';\n@import 'home';",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"names": [],
+	"mappings": ""
+}
