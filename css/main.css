@@ -1,2 +1,44 @@
+/* line 1, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* line 12, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_reset.scss */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 17, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* Evitar scroll lateral */
+/* line 22, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_reset.scss */
+html, body {
+  overflow-x: hidden;
+}
+
+/* line 26, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_reset.scss */
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* line 1, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_grid.scss */
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=main.css.map */
