@@ -41,4 +41,44 @@ button {
   margin: 0 auto;
 }
 
+/* line 1, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_titles.scss */
+h1 {
+  font-weight: 600;
+  font-size: 6.4rem;
+}
+
+/* line 5, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_titles.scss */
+h2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+/* line 11, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_titles.scss */
+h3 {
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+/* line 16, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_titles.scss */
+h4 {
+  font-size: 2rem;
+  line-height: 112%;
+}
+
+/* line 21, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_titles.scss */
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 112%;
+  letter-spacing: -1px;
+  color: #4E4B59;
+}
+
+/* line 28, ../../../../../Users/othonmedeiros/Desktop/CodeBooster/Projeto/lp-neon/landing-page-neon/scss/_titles.scss */
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  color: #4E4B59;
+}
+
 /*# sourceMappingURL=main.css.map */
