@@ -246,3 +246,21 @@
         }
     }
 }
+
+.s-depoimentos {
+    padding-top: 13.4rem;
+    .top {
+        margin-bottom: 4rem;
+        display: flex;
+        h2 {
+            span {
+                display: block;
+                color: $gray-200;
+                margin-bottom: 1.4rem;
+            }
+        }
+    }
+    .slide-depoimentos {
+        overflow: hidden;
+    }
+}
