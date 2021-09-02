@@ -211,7 +211,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding-left: 3.9rem;
+            padding-left: 5.9rem;
             .text {
                 width: 100%;
                 max-width: 38rem;
@@ -222,15 +222,26 @@
                 h3 {
                     color: #FFFFFF;
                     max-width: 32.7rem;
+                    margin-bottom: 0.8rem;
                 }
                 p {
                     font-size: 1.6rem;
                     line-height: 150%;
                     color: #FFFFFF;
+                    margin-bottom: 3.1rem;
                 }
             }
             .image {
                 margin-right: -3.1rem;
+            }
+            .btns {
+                display: flex;
+                align-items: center;
+                button {
+                    &:not(:first-child){
+                        margin-left: 1.6rem;
+                    }
+                }
             }
         }
     }
