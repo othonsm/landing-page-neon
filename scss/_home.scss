@@ -252,7 +252,6 @@
     .top {
         @include flex(row, flex-end, space-between);
         margin-bottom: 4rem;
-        
         h2 {
             span {
                 display: block;
@@ -262,6 +261,7 @@
         }
         .swiper-pagination {
             position: relative;
+            width: auto;
         }
     }
     .slide-depoimentos {
