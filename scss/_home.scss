@@ -259,6 +259,10 @@
                 margin-bottom: 1.4rem;
             }
         }
+        .swiper-pagination {
+            position: relative;
+            bottom: 0;
+        }
     }
     .slide-depoimentos {
         overflow: hidden;
