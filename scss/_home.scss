@@ -250,8 +250,9 @@
 .s-depoimentos {
     padding-top: 13.4rem;
     .top {
+        @include flex(row, flex-end, space-between);
         margin-bottom: 4rem;
-        display: flex;
+        
         h2 {
             span {
                 display: block;
@@ -261,7 +262,6 @@
         }
         .swiper-pagination {
             position: relative;
-            bottom: 0;
         }
     }
     .slide-depoimentos {
