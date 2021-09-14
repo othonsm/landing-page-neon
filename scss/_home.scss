@@ -177,7 +177,62 @@
         }
     }
     @include responsive(480px) {
-        padding-top: 124px;
+        padding-top: 12.4rem;
+        height: 73.9rem;
+        .text {
+            h1 {
+                font-size: 3.2rem;
+                line-height: 112%;
+                margin-bottom: 3.7rem;
+            }
+            h3 {
+                font-size: 1.6rem;
+                line-height: 120%;
+                margin-bottom: 1.5rem;
+            }
+            ul {
+                flex-direction: column;
+                align-items: flex-start;
+                max-width: 27.5rem;
+                li {
+                    &:not(:last-child) {
+                        margin-bottom: 1.7rem;
+                    }
+                    .icon {
+                        width: 2rem;
+                        height: auto;
+                        background-color: transparent;
+                    }
+                    span {
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .area-image {
+            h2 {
+                display: none;
+            }
+            .image {
+                max-width: 30.5rem;
+                height: 24.8rem;
+                .circle {
+                    max-width: 26.7rem;
+                    right: 0;
+                }
+                .card-front {
+                    max-width: 21.1rem;
+                    top: 2.9rem;
+                }
+                .card-back {
+                    max-width: 17rem;
+                    bottom: 0;
+                    right: 0.6rem;
+                }
+            }
+        }   
     }
 }
 
