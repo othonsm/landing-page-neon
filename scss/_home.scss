@@ -523,7 +523,6 @@
             bottom: 0;
             left: 0;
             z-index: -1;
-            transform: matrix(1, 0, 0, -1, 0, 0);
         }
         .left-area {
             flex-direction: column-reverse;
@@ -695,6 +694,7 @@
             &.circle {
                 right: 0;
                 bottom: 0;
+                z-index: -1;
             }
         }
     }
