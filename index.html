@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>Projeto - Landing Page Neon</title>
 </head>
@@ -34,7 +35,7 @@
  
     <section class="s-hero">
         <div class="container">
-            <div class="text">
+            <div class="text" data-aos="fade-right">
                 <h3>Abra sua conta, é só baixar o app!</h3>
                 <h1>A conta digital certa pra cuidar bem do seu dinheiro</h1>
                 <button class="btn-primary">Abra sua conta digital</button>
@@ -60,8 +61,8 @@
                 </ul>
             </div>
             <div class="area-image">
-                <h2>Banco 100% digital</h2>
-                <div class="image">
+                <h2 data-aos="fade-left">Banco 100% digital</h2>
+                <div class="image" data-aos="zoom-in">
                     <img class="card-front" src="./img/card-neon-frnt.png" alt="card-front">
                     <img class="card-back" src="./img/card-neon-back.png" alt="card-back">
                     <img class="circle" src="./img/circle-cards-neon.svg" alt="circle">
@@ -74,10 +75,10 @@
         <div class="container">
             <div class="left-area">
                 <div class="ilustra-mockup">
-                    <img src="./img/circle-mockup.svg" class="circle" alt="circle mockup">
-                    <img src="./img/mockup.svg" class="mockup" alt="mockup">
+                    <img src="./img/circle-mockup.svg" class="circle" data-aos="fade-left" alt="circle mockup">
+                    <img src="./img/mockup.svg" class="mockup" data-aos="flip-right" alt="mockup">
                 </div>
-                <div class="text">
+                <div class="text" data-aos="fade-up">
                     <div class="icon">
                         <img src="./img/icon-neon.svg" alt="">
                     </div>
@@ -100,7 +101,7 @@
                 </div>
             </div>
             <div class="right-area">
-                <div class="main-text">
+                <div class="main-text"  data-aos="fade-left">
                     <h2>Resolva sua vida direto pelo app Neon!</h2>
                     <ul>
                         <li>
@@ -136,7 +137,7 @@
                     </ul>
                     <a href="" class="btn">Conheça outros produtos</a>
                 </div>
-                <div class="box-card">
+                <div class="box-card"  data-aos="fade-left">
                     <div class="text">
                         <h2>Neon Pejota</h2>
                         <h3>Contas digitais PJ gratuitas para decolar seu negócio!</h3>
@@ -155,13 +156,13 @@
     <section class="s-depoimentos">
         <div class="container">
 
-            <div class="top">
+            <div class="top" data-aos="fade-right">
                 <h2><span>Prático, fácil, moderno</span>Você resolve tudo sem estresse 😊</h2>
                 <div class="swiper-pagination"></div>
             </div> 
 
              <!-- Swiper -->
-             <div class="slide-depoimentos">
+             <div class="slide-depoimentos" data-aos="fade-up">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card-depoimento">
@@ -226,7 +227,7 @@
 
     <section class="s-conta-digital">
         <div class="container">
-            <div class="text">
+            <div class="text" data-aos="fade-right">
                 <h2><span>Aproveite</span>Domine o seu dinheiro com uma conta 100% digital</h2>
                 <ul>
                     <li>
@@ -260,9 +261,9 @@
                 <button class="btn-primary">Abra sua conta digital</button>
             </div>
             <div class="image">
-                <img src="./img/mockup-01.svg" class="mockup-01" alt="">
-                <img src="./img/mockup-02.png" class="mockup-02" alt="">
-                <img src="./img/circle-conta-digital.svg" class="circle" alt="">
+                <img src="./img/mockup-01.svg" class="mockup-01" data-aos="fade-up" alt="">
+                <img src="./img/mockup-02.png" class="mockup-02" data-aos="fade-down" alt="">
+                <img src="./img/circle-conta-digital.svg" class="circle" data-aos="zoom-in" alt="">
             </div>
         </div>
     </section>
@@ -369,9 +370,12 @@
 
     <!-- Javascript -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- Initialize Swiper -->
+    
     <script>
+
+        /* Initialize Swiper */
         var swiper = new Swiper(".slide-depoimentos", {
           slidesPerView: 3,
           spaceBetween: 32,
@@ -396,6 +400,13 @@
               }
           }
         });
+
+        /* Initialize AOS Effects */   
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
       </script>
 </body>
 </html>
